@@ -167,7 +167,7 @@ add_notes(main_layer2, channels['main2'], main_melody_low, is_main=True)
 add_notes(main_layer3, channels['main3'], main_melody_high, is_main=True)
 add_notes(background_track, channels['background'], background_melody)
 add_notes(second_melody_track, channels['second'], second_melody, is_main=True)
-add_percussion(percussion_track, total_bars)
+add_percussion(percussion_track, 6)
 
 filename = f"{random.randint(100000,999999)}.mid"
 mid.save(filename)
