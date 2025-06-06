@@ -191,7 +191,7 @@ add_notes(background_track, channels['background'], background_melody)
 add_notes(second_melody_track, channels['second'], second_melody)
 
 # Add percussion
-add_percussion(percussion_track, total_bars)
+add_percussion(percussion_track, 6)
 
 # Save MIDI file
 filename = f"{random.randint(100000,999999)}.mid"
